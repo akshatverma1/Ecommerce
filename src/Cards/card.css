@@ -1,4 +1,7 @@
 /* From Uiverse.io by alexruix */ 
+p{
+    margin: 0;
+}
 .card {
     width: 140px;
     height: 204px;
