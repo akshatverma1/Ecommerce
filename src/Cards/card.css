@@ -1,9 +1,9 @@
 /* From Uiverse.io by alexruix */ 
 .card {
-    width: 150px;
+    width: 140px;
     height: 204px;
     border-radius: 20px;
-    background: #f5f5f5;
+    background:#252525;
     position: relative;
     padding: 1.8rem;
     border: 2px solid #c3c6ce;
@@ -15,9 +15,9 @@
    .card-details {
     color: black;
     height: 100%;
-    gap: .5em;
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    }
    
    .card-button {
