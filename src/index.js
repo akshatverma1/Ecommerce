@@ -6,6 +6,7 @@ import Navbar from './Navbar/navbar';
 import ReactAppFunction from './reactApp';
 import Moredetails from './MoreDetails/moreDetails';
 import Error from './Error/error';
+import CartFunction from './Cart/cart';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Routes>
       <Route path="/" element={<ReactAppFunction/>} />
       <Route path="/productDetails" element={<Moredetails/>} />
+      <Route path='/cart' element={<CartFunction/>}></Route>
       <Route path="*" element={<Error/>} />
     </Routes>
   </BrowserRouter>

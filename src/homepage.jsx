@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./homepage.css"
 import Card from "./Cards/card.jsx";
 import Navbar from './Navbar/navbar.jsx';
 import JsonData from "./ItemData/electronics_products.json";
-
+import { useNavigate } from 'react-router-dom'; 
 export default function Homepagefunction() {
-    
+    const navigator = useNavigate();
+    const cartButton=()=>{
+        navigator("/cart",{state :{cartDetails : cart}});
+    }
 
     async function call(){
         try {
@@ -16,14 +19,21 @@ export default function Homepagefunction() {
             console.log("Error in Javascript");
         }
     }
+    const [cart,setCart]= useState([]);
+    console.log(cart);
+    const addToCart=(data)=>{
+        setCart([...cart,data]);
+     
+    }
     
     return (
         <>
+        <button onClick={cartButton} style={{backgroundColor:"white", color:"black"}}>Cart</button>
             <div className="maine">
                 <center>
                     <div className='cardse'>
                         {JsonData.map((item, index) => (
-                            <Card id={item.id} productName={item.productName} description={item.description} productPrices={item.prices}></Card>
+                            <Card items={item} addToCart={addToCart}></Card>
                         ))}
                     </div>
                 </center>
