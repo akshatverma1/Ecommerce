@@ -6,7 +6,8 @@ import { useNavigate } from 'react-router-dom';
 export default function CardFunction({items,addToCart}){
     let navigator = useNavigate();
     const MoreDetailsButton = ()=>{
-        navigator("/productDetails", { state: {longDescription: items.description } });
+        navigator("/productDetails", { state: {items: items} });
+        
     }
     return (
         <>

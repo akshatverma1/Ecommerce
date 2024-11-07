@@ -8,8 +8,6 @@ export default function CartFunction(){
     const delectBtn =()=>{
         setDel([]);
     }
-
-
     return (
         <>
         <div>
@@ -17,6 +15,7 @@ export default function CartFunction(){
                 return(
                     <div>
                     <h1 style={{color:"white"}}>{item.productName}</h1>
+                    <button>Delect Button</button>
                     </div>
                 )
             })}

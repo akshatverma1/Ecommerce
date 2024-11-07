@@ -20,15 +20,15 @@ export default function Homepagefunction() {
         }
     }
     const [cart,setCart]= useState([]);
-    console.log(cart);
+    const [count,setCount]= useState(0);
     const addToCart=(data)=>{
         setCart([...cart,data]);
-     
+        setCount(count+1);
     }
     
     return (
         <>
-        <button onClick={cartButton} style={{backgroundColor:"white", color:"black"}}>Cart</button>
+        <button onClick={cartButton} style={{backgroundColor:"white", color:"black"}}>{count} Cart</button>
             <div className="maine">
                 <center>
                     <div className='cardse'>
