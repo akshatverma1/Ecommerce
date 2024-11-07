@@ -1,11 +1,13 @@
 import React from 'react';
 import "./card.css"
 import Image from "./airconn.svg";
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 export default function CardFunction({id,productName,description,productPrices}){
-    // const MoreDetailsButton = ()=>{
-    //     navigator("/details", { state: { pricess: description } });
-    // }
+    let navigator = useNavigate();
+    const MoreDetailsButton = ()=>{
+        navigator("/productDetails", { state: {longDescription: description } });
+    }
     return (
         <>
             <div class="card">
@@ -14,7 +16,7 @@ export default function CardFunction({id,productName,description,productPrices})
                     <p>{id}</p>
                     <p>{productName}</p>
                     <p>{productPrices}</p>
-                    <button>More Details</button>
+                    <button onClick={MoreDetailsButton}>More Details</button>
                 </div>
                 <button class="card-button">Add To Cart</button>
             </div>
