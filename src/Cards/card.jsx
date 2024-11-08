@@ -18,7 +18,7 @@ export default function CardFunction({ items, addToCart }) {
 
                 </div>
                 <p style={{ color: "white" }} className='productName'>{items.productName}</p>
-                <p style={{ color: "white" }} className='itemprices'>{items.prices}</p>
+                <p style={{ color: "white" }} className='itemprices'>₹{items.prices}</p>
                 <button onClick={MoreDetailsButton} class="buttonnn">
                     View Details
                    
