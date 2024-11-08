@@ -4,6 +4,8 @@ import Card from "./Cards/card.jsx";
 import Navbar from './Navbar/navbar.jsx';
 import JsonData from "./ItemData/electronics_products.json";
 import { useNavigate } from 'react-router-dom'; 
+import "./Navbar/navbar.css"
+import { Link } from 'react-router-dom';
 export default function Homepagefunction() {
     const navigator = useNavigate();
     const cartButton=()=>{
@@ -19,15 +21,22 @@ export default function Homepagefunction() {
             console.log("Error in Javascript");
         }
     }
+    
     const [cart,setCart]= useState([]);
     const [count,setCount]= useState(0);
     const addToCart=(data)=>{
         setCart([...cart,data]);
         setCount(count+1);
     }
-    
     return (
         <>
+        <nav className="navbar">
+      <div className="navbar-brand">Brand</div>
+      <ul className="navbar-links">
+        <Link to={"/"}><li>Home</li></Link>         
+        <button>Cart</button>
+      </ul>
+    </nav>
         <button onClick={cartButton} style={{backgroundColor:"white", color:"black"}}>{count} Cart</button>
             <div className="maine">
                 <center>

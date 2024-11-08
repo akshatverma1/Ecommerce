@@ -7,7 +7,6 @@ import Navbar from './Navbar/navbar';
 export default function reactAppFunction(){
     return(
         <>
-        <Navbar></Navbar>
         <Homepagefunction></Homepagefunction>
         </>
     )
