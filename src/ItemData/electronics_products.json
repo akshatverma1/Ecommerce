@@ -3,180 +3,70 @@
         "id": 1,
         "productName": "iPhone 16",
         "prices": "₹70000",
-        "description": "The iPhone series offers smartphones made by Apple Inc., featuring advanced technology and connectivity options including cellular and Wi-Fi."
+        "description": "The iPhone 16 is a premium smartphone by Apple, offering cutting-edge technology with 5G connectivity, a powerful processor, and advanced camera features. Designed for performance and style, it integrates seamlessly with the Apple ecosystem for an exceptional experience.",
+        "image": "https://d3fppka8t5rpz7.cloudfront.net/filters:format(webp)/dev/images/61l9ppRIiqL._SL1500_.jpg"
     },
     {
         "id": 2,
         "productName": "HeadPhone",
         "prices": "₹800",
-        "description": "High-quality headphones designed for immersive sound, allowing users to enjoy music and other media privately."
+        "description": "These high-quality headphones deliver crisp sound and powerful bass. Designed for private listening, they provide an immersive experience for music, podcasts, or calls. Comfortable, durable, and ideal for everyday use, whether commuting or exercising.",
+        "image": "airconn.svg"
     },
     {
         "id": 3,
         "productName": "Wireless Speaker",
         "prices": "₹2000",
-        "description": "Portable Bluetooth speakers offering high-quality sound without cables, ideal for outdoor and travel use."
+        "description": "This portable Bluetooth speaker offers excellent sound quality without the need for cables. It's perfect for outdoor adventures, parties, or travel, delivering clear, rich audio. Compact and durable, it’s easy to carry and designed for music lovers on the go.",
+        "image": "airconn.svg"
     },
     {
         "id": 4,
         "productName": "Smartwatch",
         "prices": "₹15000",
-        "description": "Smartwatches provide fitness tracking, notifications, and convenient access to smartphone features."
+        "description": "This smartwatch combines fitness tracking with smart notifications, giving you easy access to calls, messages, and apps right on your wrist. It monitors your health, tracks workouts, and seamlessly integrates with your smartphone for convenience and style.",
+        "image": "airconn.svg"
     },
     {
         "id": 5,
         "productName": "Tablet",
         "prices": "₹25000",
-        "description": "Compact tablets with touchscreen displays, used for browsing, entertainment, and productivity on the go."
+        "description": "This tablet features a large touchscreen display for browsing, entertainment, and productivity. Lightweight and portable, it's perfect for on-the-go use. Whether watching videos, reading, or working, this tablet provides powerful performance and versatility.",
+        "image": "airconn.svg"
     },
     {
         "id": 6,
         "productName": "Gaming Console",
         "prices": "₹35000",
-        "description": "Gaming consoles offer immersive video game experiences, with high-performance graphics and online capabilities."
+        "description": "Experience high-definition gaming with this gaming console. Offering incredible graphics, fast performance, and multiplayer capabilities, it’s designed for immersive gameplay. Play solo or connect with friends online for hours of entertainment across various games.",
+        "image": "airconn.svg"
     },
     {
         "id": 7,
         "productName": "Bluetooth Earbuds",
         "prices": "₹1500",
-        "description": "Wireless earbuds that provide freedom from cables, ideal for commuting, exercising, and casual listening."
+        "description": "These wireless Bluetooth earbuds provide freedom from tangled cables, offering a hassle-free listening experience. With high-quality sound, noise isolation, and a lightweight design, they’re perfect for commuting, exercising, or enjoying music wherever you go.",
+        "image": "airconn.svg"
     },
     {
         "id": 8,
         "productName": "Smart Home Assistant",
         "prices": "₹5000",
-        "description": "Voice-activated smart home devices that perform tasks, control smart devices, and provide information."
+        "description": "The smart home assistant helps you control your home with just your voice. It can play music, set reminders, control smart devices, and provide real-time information. A convenient and helpful addition to your home, making daily tasks easier and more efficient.",
+        "image": "airconn.svg"
     },
     {
         "id": 9,
         "productName": "Digital Camera",
         "prices": "₹45000",
-        "description": "High-quality digital cameras for capturing sharp photos and videos, featuring optical zoom and stabilization."
+        "description": "Capture stunning photos and videos with this high-quality digital camera. Featuring optical zoom, image stabilization, and a high-resolution sensor, it’s perfect for professional photographers and hobbyists alike. Ideal for all types of photography, from landscapes to portraits.",
+        "image": "airconn.svg"
     },
     {
         "id": 10,
         "productName": "Laptop",
         "prices": "₹60000",
-        "description": "Portable computers used for work, study, and entertainment, available in various sizes and configurations."
-    },
-    {
-        "id": 11,
-        "productName": "VR Headset",
-        "prices": "₹20000",
-        "description": "Virtual Reality headsets that immerse users in 3D environments for gaming, education, and simulations."
-    },
-    {
-        "id": 12,
-        "productName": "Smart TV",
-        "prices": "₹40000",
-        "description": "Smart TVs allow access to streaming services, apps, and online content with a connected TV experience."
-    },
-    {
-        "id": 13,
-        "productName": "Fitness Tracker",
-        "prices": "₹3000",
-        "description": "Wearable fitness devices that monitor activity, heart rate, and sleep, helping users achieve health goals."
-    },
-    {
-        "id": 14,
-        "productName": "Electric Scooter",
-        "prices": "₹25000",
-        "description": "Electric scooters for convenient, eco-friendly transportation, suitable for urban commuting."
-    },
-    {
-        "id": 15,
-        "productName": "Smart Light Bulb",
-        "prices": "₹1200",
-        "description": "LED bulbs that can be controlled via smartphones or voice assistants to set ambiance and save energy."
-    },
-    {
-        "id": 16,
-        "productName": "Drone",
-        "prices": "₹30000",
-        "description": "Drones equipped with cameras for aerial photography and videography, often used for both recreation and professional work."
-    },
-    {
-        "id": 17,
-        "productName": "Portable Power Bank",
-        "prices": "₹1000",
-        "description": "Compact power banks for charging devices on the go, essential for travel and extended outdoor activities."
-    },
-    {
-        "id": 18,
-        "productName": "Noise-Cancelling Headphones",
-        "prices": "₹5000",
-        "description": "Headphones designed to block out background noise, ideal for focused listening in busy environments."
-    },
-    {
-        "id": 19,
-        "productName": "Smart Thermostat",
-        "prices": "₹8000",
-        "description": "Smart thermostats that control home temperatures for energy efficiency and comfort, managed remotely."
-    },
-    {
-        "id": 20,
-        "productName": "Gaming Mouse",
-        "prices": "₹1500",
-        "description": "Ergonomic mice with programmable buttons and high sensitivity, perfect for competitive gaming."
-    },
-    {
-        "id": 21,
-        "productName": "Portable Projector",
-        "prices": "₹18000",
-        "description": "Compact projectors for projecting movies, presentations, and media on larger screens, suitable for travel."
-    },
-    {
-        "id": 22,
-        "productName": "Robot Vacuum Cleaner",
-        "prices": "₹22000",
-        "description": "Automated vacuum cleaners that navigate and clean floors, offering convenience in home maintenance."
-    },
-    {
-        "id": 23,
-        "productName": "Smart Door Lock",
-        "prices": "₹9000",
-        "description": "Secure smart locks that can be controlled remotely, adding security and convenience to home entry."
-    },
-    {
-        "id": 24,
-        "productName": "3D Printer",
-        "prices": "₹35000",
-        "description": "Printers that create 3D models from digital files, widely used in prototyping, education, and art."
-    },
-    {
-        "id": 25,
-        "productName": "Portable Hard Drive",
-        "prices": "₹4500",
-        "description": "External hard drives for additional storage, backups, and easy data transfer across devices."
-    },
-    {
-        "id": 26,
-        "productName": "Electric Toothbrush",
-        "prices": "₹3000",
-        "description": "Electric toothbrushes that improve dental hygiene with features like timers and pressure sensors."
-    },
-    {
-        "id": 27,
-        "productName": "E-Reader",
-        "prices": "₹12000",
-        "description": "E-readers with e-ink displays, ideal for reading digital books comfortably for extended periods."
-    },
-    {
-        "id": 28,
-        "productName": "Smart Security Camera",
-        "prices": "₹15000",
-        "description": "Home security cameras with remote monitoring, motion detection, and night vision capabilities."
-    },
-    {
-        "id": 29,
-        "productName": "Air Purifier",
-        "prices": "₹10000",
-        "description": "Air purifiers that improve indoor air quality by filtering out pollutants, allergens, and odors."
-    },
-    {
-        "id": 30,
-        "productName": "Bluetooth Keyboard",
-        "prices": "₹2000",
-        "description": "Wireless keyboards compatible with various devices, providing flexibility and portability for typing."
+        "description": "This laptop is a powerful, portable device designed for both work and play. With fast processing, ample storage, and a high-resolution display, it’s perfect for studying, gaming, and productivity. Lightweight and durable, it’s built to handle any task with ease.",
+        "image": "airconn.svg"
     }
 ]

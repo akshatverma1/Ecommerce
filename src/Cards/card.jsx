@@ -3,23 +3,27 @@ import "./card.css"
 import Image from "./airconn.svg";
 import { useNavigate } from 'react-router-dom';
 
-export default function CardFunction({items,addToCart}){
+export default function CardFunction({ items, addToCart }) {
     let navigator = useNavigate();
-    const MoreDetailsButton = ()=>{
-        navigator("/productDetails", { state: {items: items} });
-        
+    const MoreDetailsButton = () => {
+        navigator("/productDetails", { state: { items: items } });
+
     }
     return (
         <>
             <div class="card">
                 <div class="card-details">
-                    <img src={Image} alt="Sample Image" width="50px" height="50px"/>
-                    <p>{items.id}</p>
-                    <p>{items.productName}</p>
-                    <p>{items.productPrices}</p>
-                    <button onClick={MoreDetailsButton}>More Details</button>
+                    <img className="productImage" src={items.image} alt="Sample Image" width="180px" height="150px" />
+                    {/* <p style={{ color: "white" }}>{items.id}</p> */}
+
                 </div>
-                <button onClick={()=>addToCart(items)} class="card-button">Add To Cart</button>
+                <p style={{ color: "white" }} className='productName'>{items.productName}</p>
+                <p style={{ color: "white" }} className='itemprices'>{items.prices}</p>
+                <button onClick={MoreDetailsButton} class="buttonnn">
+                    View Details
+                   
+                </button>
+                <button onClick={() => addToCart(items)} class="card-button">Add To Cart</button>
             </div>
         </>
     )
