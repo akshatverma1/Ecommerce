@@ -36,7 +36,7 @@ export default function CartFunction() {
 
                         <div className='cartProducttt'>
                             <div>
-                                <h1 className='productheading'>{index}</h1>
+                                <h1 className='productheading'>{index+1}</h1>
                                 <h1 className='productheading'>{item.productName}</h1>
                             </div>
                             <div>

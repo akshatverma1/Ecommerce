@@ -4,69 +4,83 @@
         "productName": "iPhone 16",
         "prices": 70000,
         "description": "The iPhone 16 is a premium smartphone by Apple, offering cutting-edge technology with 5G connectivity, a powerful processor, and advanced camera features. Designed for performance and style, it integrates seamlessly with the Apple ecosystem for an exceptional experience.",
-        "image": "https://i.pinimg.com/564x/c9/4f/a8/c94fa8f3310e12afe02bb01c5d419644.jpg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725959941/Croma%20Assets/Communication/Mobiles/Images/309746_0_rnf9jw.png"
     },
     {
         "id": 2,
         "productName": "HeadPhone",
         "prices": 800,
         "description": "These high-quality headphones deliver crisp sound and powerful bass. Designed for private listening, they provide an immersive experience for music, podcasts, or calls. Comfortable, durable, and ideal for everyday use, whether commuting or exercising.",
-        "image": "https://st.depositphotos.com/1616053/52206/i/450/depositphotos_522062376-stock-photo-gaming-headphones-and-concept-of.jpg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1682587116/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/271047_0_yaama6.png"
     },
     {
         "id": 3,
         "productName": "Wireless Speaker",
         "prices": 2000,
         "description": "This portable Bluetooth speaker offers excellent sound quality without the need for cables. It's perfect for outdoor adventures, parties, or travel, delivering clear, rich audio. Compact and durable, it’s easy to carry and designed for music lovers on the go.",
-        "image": "https://st3.depositphotos.com/27757942/32100/i/950/depositphotos_321007962-stock-photo-wireless-music-speaker-red-bluetooth.jpg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1730791485/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/302307_0_r2dq6b.png?tr=w-480"
     },
     {
         "id": 4,
         "productName": "Smartwatch",
         "prices": 15000,
         "description": "This smartwatch combines fitness tracking with smart notifications, giving you easy access to calls, messages, and apps right on your wrist. It monitors your health, tracks workouts, and seamlessly integrates with your smartphone for convenience and style.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724857115/Croma%20Assets/Communication/Wearable%20Devices/Images/306564_0_lq8kvt.png?tr=w-480"
     },
     {
         "id": 5,
         "productName": "Tablet",
         "prices": 25000,
         "description": "This tablet features a large touchscreen display for browsing, entertainment, and productivity. Lightweight and portable, it's perfect for on-the-go use. Whether watching videos, reading, or working, this tablet provides powerful performance and versatility.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685967748/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/264261_zzl2aq.png?tr=w-480"
     },
     {
         "id": 6,
         "productName": "Gaming Console",
         "prices": 35000,
         "description": "Experience high-definition gaming with this gaming console. Offering incredible graphics, fast performance, and multiplayer capabilities, it’s designed for immersive gameplay. Play solo or connect with friends online for hours of entertainment across various games.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712137916/Croma%20Assets/Gaming/Gaming%20Consoles/Images/305987_tlfvzh.png?tr=w-480"
     },
     {
         "id": 7,
         "productName": "Bluetooth Earbuds",
         "prices": 1500,
         "description": "These wireless Bluetooth earbuds provide freedom from tangled cables, offering a hassle-free listening experience. With high-quality sound, noise isolation, and a lightweight design, they’re perfect for commuting, exercising, or enjoying music wherever you go.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697622730/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/247655_epvwtx.png"
     },
     {
         "id": 8,
         "productName": "Smart Home Assistant",
         "prices": 5000,
         "description": "The smart home assistant helps you control your home with just your voice. It can play music, set reminders, control smart devices, and provide real-time information. A convenient and helpful addition to your home, making daily tasks easier and more efficient.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1730271795/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/221146_0_sskdy0.png"
     },
     {
         "id": 9,
         "productName": "Digital Camera",
         "prices": 45000,
         "description": "Capture stunning photos and videos with this high-quality digital camera. Featuring optical zoom, image stabilization, and a high-resolution sensor, it’s perfect for professional photographers and hobbyists alike. Ideal for all types of photography, from landscapes to portraits.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718790467/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/300424_0_axpdwi.png"
     },
     {
         "id": 10,
         "productName": "Laptop",
         "prices": 60000,
         "description": "This laptop is a powerful, portable device designed for both work and play. With fast processing, ample storage, and a high-resolution display, it’s perfect for studying, gaming, and productivity. Lightweight and durable, it’s built to handle any task with ease.",
-        "image": "airconn.svg"
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724856421/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306350_0_gkxf50.png"
+    },
+    {
+        "id": 11,
+        "productName": "VR Headset",
+        "prices": "20000",
+        "description": "This VR headset offers a fully immersive virtual reality experience. With high-resolution displays and intuitive controls, it’s perfect for gaming, simulations, and exploring virtual worlds. Lightweight and comfortable, designed for extended use without discomfort.",
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1637322340/Croma%20Assets/Entertainment/Media%20Streaming%20Devices/Images/244110_1_vwjnjl.png"
+    },
+    {
+        "id": 12,
+        "productName": "Portable Charger",
+        "prices": "1200",
+        "description": "This portable charger is compact yet powerful, providing extra battery life for your devices on the go. With fast charging capabilities, it’s ideal for travel, emergencies, or everyday use. Compatible with various devices, ensuring you stay connected anytime, anywhere.",
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712582668/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/305437_7_xlc2fp.png"
     }
 ]
