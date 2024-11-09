@@ -36,7 +36,7 @@ export default function CartFunction() {
 
                         <div className='cartProducttt'>
                             <div>
-                                <h1 className='productheading'>{index+1}</h1>
+                                <h1 className='productheading'>{index + 1}</h1>
                                 <h1 className='productheading'>{item.productName}</h1>
                             </div>
                             <div>
@@ -55,7 +55,7 @@ export default function CartFunction() {
                     <button className="deleteAll " onClick={delectBtn}>Delete All</button>
                 </center>
                 <center>
-                
+
                     <div data-tooltip={pricesarr} class="buttooon">
                         <div class="buttooon-wrapper">
                             <div class="textbuy">Buy Now</div>

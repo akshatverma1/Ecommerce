@@ -1,6 +1,6 @@
 import React from 'react';
 import "./card.css"
-import Image from "./airconn.svg";
+
 import { useNavigate } from 'react-router-dom';
 
 export default function CardFunction({ items, addToCart }) {

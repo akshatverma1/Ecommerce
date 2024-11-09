@@ -92,3 +92,8 @@
     transform: translateY(-400%);
   }
 }
+@media (max-width: 895px) {
+  .cardll {
+    display: none;
+  }
+}
