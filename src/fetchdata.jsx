@@ -15,13 +15,14 @@ export default function Fetchapi(){
         }
     }
     fetch();
+    console.log("");
     return(
         <>
 
         {/* <h1 style={{color:"white"}}>{}</h1> */}
 
         {datas.map((item,index)=>{
-            return(<h1>{item.id}</h1>)
+            return(<h1 >{item.id}</h1>)
             
         })}
         </>
