@@ -15,7 +15,7 @@ export default function Fetchapi(){
         }
     }
     fetch();
-    console.log("");
+    // console.log("");
     return(
         <>
 
