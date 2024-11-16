@@ -15,10 +15,6 @@ export default function Fetchapi(){
         }
     }
     fetch();
-    console.log("akshat");
-    console.log("");
-    // console.log();
-
     return(
         <>
 
